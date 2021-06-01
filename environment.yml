@@ -1,0 +1,23 @@
+name: nf-iav-ont-1.0dev
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - curl=7.64.1
+  - cd-hit=4.6.8
+  - centrifuge=1.0.4_beta
+  - samtools=1.9
+  - python=3.6.7
+  - minimap2=2.17
+  - bcftools=1.9
+  - unicycler=0.4.7
+  - canu=1.8
+  - pip=19.1.1
+  - pip:
+    - biopython==1.73
+    - attrs==19.1.0
+    - click==7.0
+    - xlsxwriter==1.1.8
+    - numpy==1.16.4
+    - pandas==0.24.2
